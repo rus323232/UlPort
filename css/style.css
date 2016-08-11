@@ -1,0 +1,240 @@
+
+@font-face {
+    font-family: Roboto-regular; /* Гарнитура шрифта */
+    src: url(../fonts/Roboto/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+body {
+	font-family: Roboto-regular, sans-serif  !important;
+}
+
+header {
+    background-color: rgb(221, 221, 221);
+    height: 110px;
+    padding: 1px;
+    margin: 0px;
+}
+
+.logo img {
+	width: 130px;
+    height: 100px;
+}
+
+.title {
+	text-align: center;
+	height: 108px;
+}
+.adress, .phone-numbers, .mail { 
+	margin: 12px 0px 0px;
+}
+
+.adress i, .phone-numbers i, .mail i {
+	color: #337AB7;
+	font-size: 26px;
+	margin-right: 20px;
+}
+
+.phone-block {
+	display: inline-block;
+	text-align: center;
+	font-size: 20px;
+
+}
+.phone-block span {
+	color: #DA4141;
+}
+
+.feedback-button {
+	display: inline-block;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.feedback-button:hover {
+	text-decoration: underline;
+}
+
+.main-navbar, .footer-navbar {
+	width: auto;
+	height: auto;
+	padding: 0;
+	margin-top: -14px;
+	padding: 0px 0px 0px 150px;
+	background-color: #9B9B9B;;
+}
+
+.main-navbar ul, .footer-navbar ul {
+	display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.main-navbar ul li, .footer-navbar ul li {
+	display: inline-block;
+    width: auto;
+    min-width: 120px;
+    height: auto;
+    text-align: center;
+    margin: 0;
+    border-left: 1px solid black;
+    padding: 0px 0px 0px 5px;
+}
+
+.main-navbar ul li:last-child, .footer-navbar ul li:last-child {
+	border-right: 1px solid black;
+	padding: 0px 5px 0px 5px;
+}
+
+.main-navbar ul li a, .footer-navbar ul li a {
+	color: black;
+}
+
+.main-navbar ul li a:hover, .footer-navbar ul li a:hover {
+	text-decoration: underline;
+}
+
+.news-block {
+	display: block;
+	float: left;
+    width: 25%;
+    min-height: 1000px;
+    height: auto;
+    background-color: #E6E7E7;
+    margin-top: -14px;
+    padding: 0px 5px 15px 5px;
+    text-align: left;
+} 
+
+.news-block h2 {
+	text-align: center;
+}
+
+.news-block_item_title {
+	text-align: left;
+}
+
+.news-block_item_date {
+	font-weight: normal;
+	font-size: 10px;
+	margin-right: 15px;
+	margin-left: 5px;
+}
+
+.main-content {
+	display: block;
+	float: right;
+	width: 75%;
+	margin-top: -14px;
+}
+
+.photo-carousel {
+	width: auto;
+	height: 500px;
+	position: relative;
+} 
+
+.photo-carousel img {
+	height: 500px;
+	width: 100%;
+}
+
+.photo-carousel .owl-prev, .photo-carousel .owl-next {
+	position: absolute;
+	font-size: 27px;
+}
+
+.photo-carousel .owl-prev {
+	left: 45%;
+}
+
+.photo-carousel .owl-next {
+	left: 55%;
+}
+
+.about {
+	text-align: center;
+    padding: 5px;
+    margin: 50px 0px 0px;
+}
+
+.photo-menu {
+	width: 100%;
+	height: auto;
+	margin: 50px 0px 0px 0px;
+}
+
+.photo-menu ul {
+	word-wrap: break-word;
+	padding: 0;
+	font-size: 0;
+}
+
+.photo-menu ul li {
+	padding: 0px;
+    font-size: 0px;
+    list-style: outside none none;
+    display: inline-block;
+    width: 33.33%;
+    -webkit-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.photo-menu ul li:hover {
+	opacity: 1;
+    -webkit-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+.photo-menu ul .container {
+	border: 1px solid #EBEBEB;
+    margin: 5px;
+    padding: 10px;
+    width: 200px;
+}
+
+.photo-menu ul .container img {
+	border: medium none;
+    border-radius: 0px;
+    display: block;
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+}
+
+.photo-menu ul .title {
+    color: #F0F0F0;
+    font-size: 15px;
+    line-height: 30px;
+    border-bottom: 1px solid #EBEBEB;
+    background-color: #031C21;
+    height: 60px;
+    overflow: hidden;
+}
+
+footer {
+	background-color: rgb(221, 221, 221);
+    display: inline-block !important;
+    height: 256px;
+    width: 100%;
+    text-align: center;
+}
+
+footer nav.footer-navbar {
+	background-color: transparent;
+	padding-left: 0;
+}
+
+footer .social a {
+	font-size: 50px !important;
+    margin-right: 30px;
+}
+
+footer .social a i:hover {
+	-webkit-transform: scale(1.6);
+	-ms-transform: scale(1.6);
+	-o-transform: scale(1.6);
+	transform: scale(1.6);
+}
