@@ -10,7 +10,7 @@
     	protected static $db;
 
 
-    	public function __construct ($table_name, $format_date) {
+    	public function __construct ($table_name, $format_date = "%d.%m.%Y %H:%M:%S") {
     		$this->table_name = $table_name;
             $this->format_date = $format_date; 
     	}

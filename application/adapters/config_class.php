@@ -10,7 +10,7 @@
      const DB_PASS   = "";
      const DB_NAME   = "rucoDB";
      const DB_PREFIX = "wasd_";
-     const SYMBOL_QUERY = "POW";
+     const DB_SYMBOL_QUERY = "POW";
 
      const DIR_IMAGES          = "img/";
      const DIR_IMAGES_ARTICLES = "img/articles";
@@ -19,8 +19,6 @@
      const DIR_EMAILS          = '/tmp/emails';
 
      const FILE_MESSAGES       = '/messages/messages.ini';
-
-     const SEF_SUFFIX          = '.html';
 
 
   }
